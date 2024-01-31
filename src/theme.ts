@@ -8,9 +8,14 @@ const roboto = Roboto({
   display: "swap",
 });
 
+// https://mui.com/material-ui/customization/default-theme/?expand-path=$.palette
 const theme = createTheme({
   palette: {
     mode: "light",
+    common: {
+      black: "#000",
+      white: "#fff",
+    },
     primary: {
       light: "#F4F1DE",
       main: "#EAB69F",
