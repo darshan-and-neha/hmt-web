@@ -1,4 +1,18 @@
 .header {
   font-size: 32px;
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.logo {
+  color: theme.palette.common.black;
+  text-decoration: "none";
+}
+
+.loginButton {
+  width: 100px;
+  border-radius: 5px;
+  padding: 8px;
 }
